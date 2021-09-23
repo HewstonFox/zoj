@@ -2,7 +2,7 @@
 CFLAGS=-std=c11 -Wall -Wextra -Werror -Wpedantic
 EXEC_NAME=endgame
 
-all: MINILIBMX
+all:uninstall MINILIBMX
 
 MINILIBMX: src/*.c
 	$(CC) $(CFLAGS) -o $(EXEC_NAME) src/*.c

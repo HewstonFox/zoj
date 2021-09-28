@@ -1,4 +1,4 @@
-СС=clang
+CC=clang
 CFLAGS=-std=c11 -Wall -Wextra -Werror -Wpedantic
 EXEC_NAME=endgame
 
